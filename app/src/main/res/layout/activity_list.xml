@@ -31,7 +31,7 @@
         android:layout_marginBottom="29dp"
         android:text="1"
         android:textColor="@color/black"
-        android:background="00ff0000"
+        android:background="#00ff00"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/button8"
         app:layout_constraintStart_toStartOf="@+id/textView6" />
@@ -46,7 +46,7 @@
         android:layout_marginBottom="29dp"
         android:text="2"
         android:textColor="@color/black"
-        android:background="00ff0000"
+        android:background="#00ff00"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintStart_toStartOf="@+id/button7"
@@ -62,7 +62,7 @@
         android:layout_marginBottom="29dp"
         android:text="3"
         android:textColor="@color/black"
-        android:background="00ff0000"
+        android:background="#00ff00"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintStart_toStartOf="@+id/button8"
@@ -78,7 +78,7 @@
         android:layout_marginBottom="29dp"
         android:text="4"
         android:textColor="@color/black"
-        android:background="00ff0000"
+        android:background="#00ff00"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/button11"
         app:layout_constraintStart_toStartOf="@+id/button9"
@@ -94,7 +94,7 @@
         android:layout_marginBottom="29dp"
         android:text="5"
         android:textColor="@color/black"
-        android:background="00ff0000"
+        android:background="#00ff00"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/button12"
         app:layout_constraintStart_toStartOf="@+id/button10"
@@ -110,7 +110,7 @@
         android:layout_marginBottom="29dp"
         android:text="6"
         android:textColor="@color/black"
-        android:background="00ff0000"
+        android:background="#00ff00"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/button11"
@@ -201,10 +201,11 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="147dp"
+        android:layout_marginStart="152dp"
         android:text="시설물 이름"
         app:layout_constraintStart_toStartOf="@+id/imageButton6"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteY="370dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView9"
@@ -213,7 +214,8 @@
         android:layout_marginStart="147dp"
         android:text="시설물 주소"
         app:layout_constraintStart_toStartOf="@+id/imageButton6"
-        tools:layout_editor_absoluteY="402dp" />
+        tools:layout_editor_absoluteY="402dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView10"
@@ -222,7 +224,8 @@
         android:layout_marginStart="147dp"
         android:text="시설물 이름"
         app:layout_constraintStart_toStartOf="@+id/imageButton7"
-        tools:layout_editor_absoluteY="460dp" />
+        tools:layout_editor_absoluteY="460dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView11"
@@ -231,7 +234,8 @@
         android:layout_marginStart="147dp"
         android:text="시설물 주소"
         app:layout_constraintStart_toStartOf="@+id/imageButton7"
-        tools:layout_editor_absoluteY="500dp" />
+        tools:layout_editor_absoluteY="500dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView12"
@@ -240,7 +244,8 @@
         android:layout_marginStart="147dp"
         android:text="시설물 이름"
         app:layout_constraintStart_toStartOf="@+id/imageButton8"
-        tools:layout_editor_absoluteY="560dp" />
+        tools:layout_editor_absoluteY="560dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView13"
@@ -249,7 +254,8 @@
         android:layout_marginStart="147dp"
         android:text="시설물 주소"
         app:layout_constraintStart_toStartOf="@+id/imageButton8"
-        tools:layout_editor_absoluteY="601dp" />
+        tools:layout_editor_absoluteY="601dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

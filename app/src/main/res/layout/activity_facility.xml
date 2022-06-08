@@ -9,86 +9,78 @@
     tools:context=".MainActivity" >
 
     <EditText
-        android:id="@+id/m_p"
+        android:id="@+id/fac_p"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="phone number"
+        android:hint="Facility key"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/m_id"
+        android:id="@+id/fac_ceo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="id"
+        android:hint="CEO name"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/m_pw"
+        android:id="@+id/fac_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="pw"
+        android:hint="Title"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/m_name"
+        android:id="@+id/fac_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="name"
+        android:hint="Information"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/m_company"
+        android:id="@+id/fac_max"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="company"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/m_type"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:hint="type"
+        android:hint="MAX"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/getFacility"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Get" />
 
     <Button
-        android:id="@+id/PostButton"
+        android:id="@+id/postFacility"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Post" />
 
     <Button
-        android:id="@+id/DeleteButton"
+        android:id="@+id/deleteFacility"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Delete" />
 
     <Button
-        android:id="@+id/FacilityButton"
+        android:id="@+id/seeUsers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Facility" />
+        android:text="Users" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -100,7 +92,7 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/getText"
+                android:id="@+id/allFacility"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="" />
