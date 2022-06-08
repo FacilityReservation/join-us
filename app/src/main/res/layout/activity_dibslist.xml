@@ -15,7 +15,8 @@
         android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/billiard" />
+        app:srcCompat="@drawable/billiard"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView"
@@ -24,7 +25,8 @@
         android:layout_marginStart="140dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="@+id/imageButton"
-        tools:layout_editor_absoluteY="107dp" />
+        tools:layout_editor_absoluteY="107dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -33,5 +35,6 @@
         android:layout_marginStart="140dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="@+id/imageButton"
-        tools:layout_editor_absoluteY="146dp" />
+        tools:layout_editor_absoluteY="146dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

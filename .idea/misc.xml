@@ -3,18 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/drawable/border.xml" value="0.2205" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2205" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/activity_categories.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/activity_dibslist.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/activity_join.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/activity_list.xml" value="0.2" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/bamin.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/gdaga.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/layout/recycler.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/JoinUs/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/layout/activity_categories.xml" value="0.1" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/layout/activity_dibslist.xml" value="0.1109375" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/layout/activity_facility.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/layout/activity_join.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/layout/activity_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jkweb/AndroidStudioProjects/Team_joinus/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1125" />
       </map>
     </option>
   </component>

@@ -5,7 +5,7 @@
         android:id="@+id/dibs_list"
         android:enabled="true"
         android:icon="@drawable/star"
-        android:title="찜 목록"/>
+        android:title="로그아웃"/>
 
     <item
         android:id="@+id/page_tv"

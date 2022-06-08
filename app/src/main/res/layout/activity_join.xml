@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_id"
+        android:id="@+id/m_id"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginStart="12dp"
@@ -31,85 +31,75 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_pass"
+        android:id="@+id/m_pw"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="패스워드"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/et_id"
-        app:layout_constraintStart_toStartOf="@+id/et_id"
-        app:layout_constraintTop_toBottomOf="@+id/et_id" />
+        app:layout_constraintEnd_toEndOf="@+id/m_id"
+        app:layout_constraintStart_toStartOf="@+id/m_id"
+        app:layout_constraintTop_toBottomOf="@+id/m_id" />
 
     <EditText
-        android:id="@+id/et_passck"
+        android:id="@+id/m_pw2"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="패스워드 확인"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/et_pass"
-        app:layout_constraintStart_toStartOf="@+id/et_pass"
-        app:layout_constraintTop_toBottomOf="@+id/et_pass" />
+        app:layout_constraintEnd_toEndOf="@+id/m_pw"
+        app:layout_constraintStart_toStartOf="@+id/m_pw"
+        app:layout_constraintTop_toBottomOf="@+id/m_pw" />
 
     <EditText
-        android:id="@+id/et_name"
+        android:id="@+id/m_name"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="이름"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/et_passck"
-        app:layout_constraintStart_toStartOf="@+id/et_passck"
-        app:layout_constraintTop_toBottomOf="@+id/et_passck" />
+        app:layout_constraintEnd_toEndOf="@+id/m_pw2"
+        app:layout_constraintStart_toStartOf="@+id/m_pw2"
+        app:layout_constraintTop_toBottomOf="@+id/m_pw2" />
 
     <EditText
-        android:id="@+id/et_adress"
+        android:id="@+id/m_p"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="주소"
+        android:hint="전화번호"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/et_name"
-        app:layout_constraintStart_toStartOf="@+id/et_name"
-        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+        app:layout_constraintEnd_toEndOf="@+id/m_name"
+        app:layout_constraintStart_toStartOf="@+id/m_name"
+        app:layout_constraintTop_toBottomOf="@+id/m_name" />
 
-    <EditText
-        android:id="@+id/et_com"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="상호명"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/et_adress"
-        app:layout_constraintStart_toStartOf="@+id/et_adress"
-        app:layout_constraintTop_toBottomOf="@+id/et_adress" />
+
 
 
     <Button
-        android:id="@+id/btn_register"
+        android:id="@+id/PostButton"
         android:layout_width="250dp"
         android:layout_height="45dp"
         android:layout_marginTop="30dp"
         android:text="확인"
-        app:layout_constraintEnd_toEndOf="@+id/et_com"
-        app:layout_constraintStart_toStartOf="@+id/et_com"
-        app:layout_constraintTop_toBottomOf="@+id/et_com" />
+        app:layout_constraintEnd_toEndOf="@+id/m_p"
+        app:layout_constraintStart_toStartOf="@+id/m_p"
+        app:layout_constraintTop_toBottomOf="@+id/m_p" />
 
     <Button
-        android:id="@+id/validateButton"
+        android:id="@+id/id_ck"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginTop="200dp"
         android:text="중복확인"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.058"
-        app:layout_constraintStart_toEndOf="@+id/et_id"
+        app:layout_constraintStart_toEndOf="@+id/m_id"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
